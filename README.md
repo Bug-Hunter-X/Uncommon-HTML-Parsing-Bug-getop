@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to the order of HTML parsing and JavaScript execution. The bug occurs because JavaScript tries to access a DOM element before the browser has finished parsing it, resulting in a null pointer error. The solution shows how to correctly handle this scenario.
